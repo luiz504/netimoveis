@@ -4,6 +4,7 @@
     "source.fixAll.eslint": "explicit"
   },
   "cSpell.words": [
+    "commitlint",
     "coodesh",
     "Netimóveis",
     "nextjs",
