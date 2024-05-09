@@ -1,0 +1,14 @@
+{
+  "cSpell.dictionaries": ["en", "pt-br"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "cSpell.words": [
+    "coodesh",
+    "Netimóveis",
+    "nextjs",
+    "rocketseat",
+    "tailwindcss"
+  ],
+  "eslint.validate": ["javascript", "javascriptreact"]
+}

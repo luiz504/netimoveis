@@ -10,7 +10,7 @@ Estamos animados para te ver brilhar novamente!
 ### Antes de começar
 
 - Prepare o projeto para ser disponibilizado no Github, copiando o conteúdo deste repositório para o seu (ou utilize o fork do projeto e aponte para o Github). Confirme que a visibilidade do projeto é pública (não esqueça de colocar no readme a referência a este challenge);
-- O projeto deve utilizar a Linguagem específica ou Framework na sua Vaga (caso esteja se candidatando). Por exempo: Next.js, React e entre outras;
+- O projeto deve utilizar a Linguagem específica ou Framework na sua Vaga (caso esteja se candidatando). Por exemplo: Next.js, React e entre outras;
 - Considere como _deadline 5 dias a partir do início do desafio_. Caso tenha sido convidado a realizar o teste e não seja possível concluir dentro deste período, avise a pessoa que o convidou para receber instruções sobre o que fazer.
 - Documentar todo o processo de investigação para o desenvolvimento da atividade (README.md no seu repositório); os resultados destas tarefas são tão importantes do que o seu processo de pensamento e decisões à medida que as completa, por isso tente documentar e apresentar os seus hipóteses e decisões na medida do possível.
 
@@ -22,7 +22,7 @@ Estamos animados para te ver brilhar novamente!
 - Seguir o protótipo da tela
 -
 
-### Será um enorme **diferencial** para a gente se você:
+### Será um enorme **diferencial** para a gente se você
 
 - Optar por usar **TypeScript**.
 - Aplicar **Testes Unitários** em Componentes.
@@ -38,7 +38,7 @@ Vamos disponibilizar para você dois JSONs como fonte de dados.
 
 ### Home
 
-Estude o Figma para trabalhar no projeto com os requisitos essênciais:
+Estude o Figma para trabalhar no projeto com os requisitos essenciais:
 
 [Figma](https://www.figma.com/file/Bbwa2wakxxcUMZB4Y4nXke/Teste-Coodesh?type=design&t=gJx1Cj6soxAtWvks-6)
 
@@ -46,7 +46,7 @@ Estude o Figma para trabalhar no projeto com os requisitos essênciais:
 
 - O campo Localização deverá listar as opções no formato 'Belo Horizonte, Minas Gerais'. Quando selecionada uma opção, ela deverá ser exibida como 'Belo Horizonte, BH'.
 - O campo Nº de Quartos deverá ser um Dropdown para informar a quantidade e selecionar os Tipos
-- O botão deverá 'Buscar' terar alguns comportamentos ao passar o Mouse, seguindo as especificações do Figma
+- O botão deverá 'Buscar' tera alguns comportamentos ao passar o Mouse, seguindo as especificações do Figma
 
 #### Listagem
 
@@ -83,3 +83,5 @@ Use o nosso canal no slack: http://bit.ly/32CuOMy para tirar dúvidas sobre o pr
 ## Developing notes
 
 - [ ] Config base project (nextjs@latest, eslint,prettier, husky, lint-staged, commit-lint)
+- [ ] Config Vitest, RTL, eslint plugin
+- [ ] Go to Figma page and identify fonts, colors, components, variants, responsive target, screens.

@@ -1,0 +1,7 @@
+{
+  "extends": ["@rocketseat/eslint-config/next", "next/core-web-vitals"],
+  "rules": {
+    "no-console": "warn"
+  },
+  "ignorePatterns": ["*.config.js", "*.config.mjs"]
+}
