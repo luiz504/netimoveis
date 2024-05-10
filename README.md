@@ -80,8 +80,12 @@ Estude o Figma para trabalhar no projeto com os requisitos essenciais:
 
 Use o nosso canal no slack: http://bit.ly/32CuOMy para tirar dúvidas sobre o processo ou envie um e-mail para contato@coodesh.com.
 
-## Developing notes
+## Developing todos
 
-- [ ] Config base project (nextjs@latest, eslint,prettier, husky, lint-staged, commit-lint)
-- [ ] Config Vitest, RTL, eslint plugin
+- [x] Config base project (nextjs@latest, eslint,prettier, husky, lint-staged, commit-lint)
+- [x] Config Vitest, RTL, eslint plugin
 - [ ] Go to Figma page and identify fonts, colors, components, variants, responsive target, screens.
+
+## Developer notes
+
+- This Figma project faces significant DX challenges, lacking a UI Kit to showcase fonts, weights, colors, etc, crucial for the project. While it serves as a challenge draft, implementing a basic UI Kit would significantly enhance the initial impression. Prioritizing efforts in this area is essential to improve overall usability.

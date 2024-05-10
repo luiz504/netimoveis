@@ -5,5 +5,6 @@ describe('Component: Header', () => {
   it('should render correctly', () => {
     render(<Header />)
     expect(screen.getByText('logo')).toBeInTheDocument()
+    expect(screen.getByTestId('input')).toBeInTheDocument()
   })
 })

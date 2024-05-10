@@ -4,12 +4,14 @@
     "source.fixAll.eslint": "explicit"
   },
   "cSpell.words": [
+    "camelcase",
     "commitlint",
     "coodesh",
     "Netimóveis",
     "nextjs",
     "rocketseat",
-    "tailwindcss"
+    "tailwindcss",
+    "testid"
   ],
   "eslint.validate": ["javascript", "javascriptreact"]
 }

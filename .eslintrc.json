@@ -20,7 +20,8 @@
     }
   ],
   "rules": {
-    "no-console": "warn"
+    "no-console": "warn",
+    "camelcase": "off"
   },
   "ignorePatterns": ["*.config.js", "*.config.mjs"]
 }
