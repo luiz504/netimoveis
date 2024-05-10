@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Source_Sans_3 } from 'next/font/google'
 import '~/styles/globals.css'
+import { cn } from '~/utils/cn'
 
 const sourceSans3 = Source_Sans_3({ subsets: ['latin'] })
 
@@ -19,7 +20,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={sourceSans3.className}>{children}</body>
+      <body
+        className={cn([sourceSans3.className, 'min-h-screen flex flex-col'])}
+      >
+        {children}
+      </body>
     </html>
   )
 }
