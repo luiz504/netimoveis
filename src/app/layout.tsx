@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={cn([sourceSans3.className, 'min-h-screen flex flex-col'])}
+        className={cn([sourceSans3.className, 'flex min-h-screen flex-col'])}
       >
         {children}
       </body>
