@@ -21,7 +21,14 @@
   ],
   "rules": {
     "no-console": "warn",
-    "camelcase": "off"
+    "camelcase": "off",
+    "react/self-closing-comp": [
+      "error",
+      {
+        "component": true,
+        "html": true
+      }
+    ]
   },
   "ignorePatterns": ["*.config.js", "*.config.mjs"]
 }
