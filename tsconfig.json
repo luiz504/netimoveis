@@ -19,11 +19,13 @@
       }
     ],
     "paths": {
-      "~/*": ["./src/*"]
+      "~/*": ["./src/*"],
+      "public/*": ["./public/*"]
     },
     "types": ["vitest/globals"]
   },
   "include": [
+    "svgr.d.ts",
     "next-env.d.ts",
     "vitest.setup.mts",
     "**/*.ts",
