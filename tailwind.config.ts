@@ -12,6 +12,9 @@ const config: Config = {
         '312': '78rem',
         '172': '43rem',
       },
+      fontSize: {
+        '3.5xl': '2.125rem',
+      },
 
       colors: {
         'off-white': '#EDF1F4',

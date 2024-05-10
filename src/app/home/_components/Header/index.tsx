@@ -5,6 +5,7 @@ import { cn } from '~/utils/cn'
 import { AboutDropDown } from './AboutDropDown'
 
 import BurgerMenuIcon from 'public/burger-menu.svg'
+import ChevronDown from 'public/chevron-down.svg'
 
 type Props = Omit<ComponentProps<'header'>, 'children'>
 export const Header: FC<Props> = ({ className, ...props }) => {
@@ -15,7 +16,7 @@ export const Header: FC<Props> = ({ className, ...props }) => {
     >
       <div
         data-testid="content-big-screen"
-        className="invisible hidden w-full max-w-312 flex-1 items-center justify-between  lg:visible lg:flex"
+        className="hidden w-full max-w-312 flex-1 items-center justify-between lg:flex"
       >
         <div className="flex items-center gap-12">
           <Image
@@ -37,8 +38,8 @@ export const Header: FC<Props> = ({ className, ...props }) => {
               Quero me Associar
             </Link>
 
-            <AboutDropDown className="whitespace-nowrap px-1 text-gray-700">
-              Sobre
+            <AboutDropDown className="flex items-center gap-1.5 whitespace-nowrap px-1 text-gray-700">
+              Sobre <ChevronDown />
             </AboutDropDown>
 
             <Link href={'/blog'} className="px-1 text-gray-700">
@@ -67,7 +68,7 @@ export const Header: FC<Props> = ({ className, ...props }) => {
       {/** Small Screen */}
       <div
         data-testid="content-small-screen"
-        className="flex max-w-172 flex-1 items-center justify-between lg:invisible lg:hidden"
+        className="flex max-w-172 flex-1 items-center justify-between lg:hidden"
       >
         <Image
           src="/logo-laranja.svg"
