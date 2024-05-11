@@ -6,10 +6,12 @@ export default defineConfig({
   test: {
     globals: true,
     environment: "jsdom",
+    // css:true,
     alias: {
       "~/": new URL("./src/", import.meta.url).pathname,
       "public/": new URL("./public/", import.meta.url).pathname,
     },
     setupFiles: ["./vitest.setup.mts"],
+    
   },
 });

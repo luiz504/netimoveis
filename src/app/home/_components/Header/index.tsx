@@ -1,11 +1,12 @@
+import { ComponentProps, FC } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { ComponentProps, FC } from 'react'
-import { cn } from '~/utils/cn'
-import { AboutDropDown } from './AboutDropDown'
 
+import { cn } from '~/utils/cn'
 import BurgerMenuIcon from 'public/burger-menu.svg'
 import ChevronDown from 'public/chevron-down.svg'
+
+import { AboutDropDown } from './AboutDropDown'
 
 type Props = Omit<ComponentProps<'header'>, 'children'>
 export const Header: FC<Props> = ({ className, ...props }) => {

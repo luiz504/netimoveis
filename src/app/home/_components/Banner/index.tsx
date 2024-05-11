@@ -9,12 +9,13 @@ import SearchIcon from 'public/search.svg'
 export const Banner: FC = () => {
   const [inputValue, setInputValue] = useState('')
   return (
-    <section className="relative">
+    <section className="relative flex max-h-[640px] justify-center">
       <Image
         src="/woman-coffee-smile.png"
         alt="Banner"
         width={1920}
         height={640}
+        style={{ objectFit: 'cover', width: '100%', height: 'auto' }}
       />
       <div className="absolute inset-0 hidden flex-col items-center lg:flex">
         <h1 className="mb-8 mt-[5%] text-3.5xl font-bold leading-10 text-white">
