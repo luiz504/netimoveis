@@ -6,9 +6,11 @@ const HomeLayout: FC<PropsWithChildren> = ({ children }) => {
   return (
     <>
       <Header data-testid="header" />
+
       <main data-testid="main" className="flex flex-1 flex-col">
         {children}
       </main>
+
       <Footer data-testid="footer" />
     </>
   )
