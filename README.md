@@ -80,11 +80,14 @@ Estude o Figma para trabalhar no projeto com os requisitos essenciais:
 
 Use o nosso canal no slack: http://bit.ly/32CuOMy para tirar dúvidas sobre o processo ou envie um e-mail para contato@coodesh.com.
 
-## Developing todos
+## Development Thought Process
 
-- [x] Config base project (nextjs@latest, eslint,prettier, husky, lint-staged, commit-lint)
-- [x] Config Vitest, RTL, eslint plugin
-- [ ] Go to Figma page and identify fonts, colors, components, variants, responsive target, screens.
+- [x] Configure base project (Next.js@latest, ESLint, Prettier, Husky, lint-staged, commit-lint)
+- [x] Configure Vitest, RTL, ESLint plugin
+- [x] Go to Figma page and identify fonts, colors, components, variants, responsive targets, screens.
+- [x] Create Header and mind its changes on the responsive version
+- [x] Create Banner Component and its input with a dummy version
+- [-] Create footers, group the orange one and the gray one, in the Footer component but split them as the LowerFooter / UpperFooter to reduce code complexity due to responsiveness classes and the number of links
 
 ## Developer notes
 

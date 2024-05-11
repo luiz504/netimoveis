@@ -15,7 +15,9 @@ const config: Config = {
       fontSize: {
         '3.5xl': '2.125rem',
       },
-
+      letterSpacing: {
+        subtle: '0.2px',
+      },
       colors: {
         'off-white': '#EDF1F4',
         'gray-100': '#F3F3F3',

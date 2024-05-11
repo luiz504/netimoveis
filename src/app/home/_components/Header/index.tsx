@@ -1,10 +1,10 @@
 import { ComponentProps, FC } from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
 
 import { cn } from '~/utils/cn'
 import BurgerMenuIcon from 'public/burger-menu.svg'
 import ChevronDown from 'public/chevron-down.svg'
+import LogoFull from 'public/logo-full.svg'
 
 import { AboutDropDown } from './AboutDropDown'
 
@@ -12,7 +12,7 @@ type Props = Omit<ComponentProps<'header'>, 'children'>
 export const Header: FC<Props> = ({ className, ...props }) => {
   return (
     <header
-      className={cn('flex min-h-16 justify-center px-4', className)}
+      className={cn('flex min-h-14 justify-center px-4 lg:min-h-16', className)}
       {...props}
     >
       <div
@@ -20,14 +20,8 @@ export const Header: FC<Props> = ({ className, ...props }) => {
         className="hidden w-full max-w-312 flex-1 items-center justify-between lg:flex"
       >
         <div className="flex items-center gap-12">
-          <Image
-            src="/logo-laranja.svg"
-            alt="Logo Netimóveis"
-            width={169}
-            height={42}
-            className="h-[42px]"
-            priority
-          />
+          <LogoFull className="h-[42px] w-[169px]" />
+
           <nav className="flex gap-9">
             <Link href={'/real-state-agencies'} className="px-1 text-gray-700">
               Imobiliárias
@@ -71,14 +65,8 @@ export const Header: FC<Props> = ({ className, ...props }) => {
         data-testid="content-small-screen"
         className="flex max-w-172 flex-1 items-center justify-between lg:hidden"
       >
-        <Image
-          src="/logo-laranja.svg"
-          alt="Logo Netimóveis"
-          width={169}
-          height={42}
-          className="h-[42px]"
-          priority
-        />
+        <LogoFull className="h-[32px] w-[126px]" />
+
         <button>
           <BurgerMenuIcon />
         </button>
