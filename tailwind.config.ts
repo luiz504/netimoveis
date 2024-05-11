@@ -16,11 +16,13 @@ const config: Config = {
         '3.5xl': '2.125rem',
       },
       letterSpacing: {
+        tinny: '0.15px',
         subtle: '0.2px',
       },
       colors: {
         'off-white': '#EDF1F4',
         'gray-100': '#F3F3F3',
+        'gray-150': '#E3E7EC',
         'gray-200': '#E1E5E9',
         'gray-300': '#D9D9D9',
         'gray-400': '#D0D5D8',
@@ -38,7 +40,7 @@ const config: Config = {
         'orange-400': '#F36C21',
         'orange-500': '#ED672B',
         'orange-600': '#E95808',
-        'blue-100': '#063D7E',
+        'blue-800': '#063D7E',
       },
       keyframes: {
         slideDownAndFade: {

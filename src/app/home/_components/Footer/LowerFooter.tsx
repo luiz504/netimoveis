@@ -61,7 +61,7 @@ export const LowerFooter: FC<Props> = ({ className, ...rest }) => {
           </nav>
         </div>
 
-        <nav className="flex flex-grow content-center items-center justify-center gap-8">
+        <nav className="flex flex-grow content-center items-center justify-center gap-8 lg:justify-end">
           <Link target="_blank" href="https://www.instagram.com/netimoveis/">
             <InstagramIcon />
           </Link>
