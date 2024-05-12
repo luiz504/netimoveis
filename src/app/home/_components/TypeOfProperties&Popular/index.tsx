@@ -99,25 +99,25 @@ export const TypeOfPropertiesPopular: FC<Props> = ({ className, ...rest }) => {
             <nav className="flex flex-col gap-3">
               <Link
                 href=""
-                className="flex w-fit whitespace-nowrap text-sm text-gray-700 outline-offset-2"
+                className="flex w-fit whitespace-nowrap text-sm text-gray-700 outline-offset-4"
               >
                 Apartamentos
               </Link>
               <Link
                 href=""
-                className="flex w-fit whitespace-nowrap text-sm text-gray-700 outline-offset-2"
+                className="flex w-fit whitespace-nowrap text-sm text-gray-700 outline-offset-4"
               >
                 Casas
               </Link>
               <Link
                 href=""
-                className="flex w-fit whitespace-nowrap text-sm text-gray-700 outline-offset-2"
+                className="flex w-fit whitespace-nowrap text-sm text-gray-700 outline-offset-4"
               >
                 Terrenos
               </Link>
               <Link
                 href=""
-                className="flex w-fit whitespace-nowrap text-sm text-gray-700 outline-offset-2"
+                className="flex w-fit whitespace-nowrap text-sm text-gray-700 outline-offset-4"
               >
                 Lojas
               </Link>
@@ -131,25 +131,25 @@ export const TypeOfPropertiesPopular: FC<Props> = ({ className, ...rest }) => {
             <nav className="flex flex-col gap-3">
               <Link
                 href=""
-                className="flex w-fit whitespace-nowrap text-sm text-gray-700 outline-offset-2"
+                className="flex w-fit whitespace-nowrap text-sm text-gray-700 outline-offset-4"
               >
                 Imóv. em Condomínios
               </Link>
               <Link
                 href=""
-                className="flex w-fit whitespace-nowrap text-sm text-gray-700 outline-offset-2"
+                className="flex w-fit whitespace-nowrap text-sm text-gray-700 outline-offset-4"
               >
                 Casas à venda
               </Link>
               <Link
                 href=""
-                className="flex w-fit whitespace-nowrap text-sm text-gray-700 outline-offset-2"
+                className="flex w-fit whitespace-nowrap text-sm text-gray-700 outline-offset-4"
               >
                 Comprar terrenos
               </Link>
               <Link
                 href=""
-                className="flex w-fit whitespace-nowrap text-sm text-gray-700 outline-offset-2"
+                className="flex w-fit whitespace-nowrap text-sm text-gray-700 outline-offset-4"
               >
                 Lançamentos
               </Link>
@@ -163,25 +163,25 @@ export const TypeOfPropertiesPopular: FC<Props> = ({ className, ...rest }) => {
             <nav className="flex flex-col gap-3">
               <Link
                 href=""
-                className="flex w-fit whitespace-nowrap text-sm text-gray-700 outline-offset-2"
+                className="flex w-fit whitespace-nowrap text-sm text-gray-700 outline-offset-4"
               >
                 imóveis com escritório
               </Link>
               <Link
                 href=""
-                className="flex w-fit whitespace-nowrap text-sm text-gray-700 outline-offset-2"
+                className="flex w-fit whitespace-nowrap text-sm text-gray-700 outline-offset-4"
               >
                 Prédio comercial
               </Link>
               <Link
                 href=""
-                className="flex w-fit whitespace-nowrap text-sm text-gray-700 outline-offset-2"
+                className="flex w-fit whitespace-nowrap text-sm text-gray-700 outline-offset-4"
               >
                 Galpão de Armazenamento
               </Link>
               <Link
                 href=""
-                className="flex w-fit whitespace-nowrap text-sm text-gray-700 outline-offset-2"
+                className="flex w-fit whitespace-nowrap text-sm text-gray-700 outline-offset-4"
               >
                 Salão de Eventos
               </Link>

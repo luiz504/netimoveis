@@ -88,7 +88,7 @@ Use o nosso canal no slack: http://bit.ly/32CuOMy para tirar dúvidas sobre o pr
 - [x] Create Header and mind its changes on the responsive version
 - [x] Create Banner Component and its input with a dummy version
 - [x] Create footers, group the orange one and the gray one, in the Footer component but split them as the LowerFooter / UpperFooter to reduce code complexity due to responsiveness classes and the number of links
-- [ ] Create Section TypeOfProperties&Popular
+- [x] Create Section TypeOfProperties&Popular
 - [ ] Create Section BePartOfIt
 - [ ] Create Section BlogPosts
 - [ ] Create Section CatchPhrases

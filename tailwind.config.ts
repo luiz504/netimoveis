@@ -41,6 +41,7 @@ const config: Config = {
         'orange-500': '#ED672B',
         'orange-600': '#E95808',
         'blue-800': '#063D7E',
+        'blue-950': '#1C2A39',
       },
       keyframes: {
         slideDownAndFade: {
