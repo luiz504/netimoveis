@@ -20,7 +20,7 @@ export const LowerFooter: FC<Props> = ({ className, ...rest }) => {
     >
       <div className="flex w-full max-w-172  flex-wrap justify-center gap-4 sm:justify-between lg:max-w-312">
         <div className="flex flex-grow justify-center sm:justify-start">
-          <LogoFull class="text-white" width={153} height={38} />
+          <LogoFull className="text-white" width={153} height={38} />
         </div>
 
         <div className="flex flex-grow flex-col items-center gap-4  sm:gap-2">
