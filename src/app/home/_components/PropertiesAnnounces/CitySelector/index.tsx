@@ -28,6 +28,7 @@ export const CitySelector: FC<Props> = ({ items }) => {
       } else {
         params.set(name, value)
       }
+      params.delete('announces_page')
 
       return params.toString()
     },
