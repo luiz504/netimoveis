@@ -40,6 +40,7 @@ const config: Config = {
         'orange-400': '#F36C21',
         'orange-500': '#ED672B',
         'orange-600': '#E95808',
+        'blue-200': '#486183',
         'blue-600': '#2362AF',
         'blue-800': '#063D7E',
         'blue-950': '#1C2A39',
@@ -73,6 +74,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [require('tailwindcss-animate')],
 }
 export default config
