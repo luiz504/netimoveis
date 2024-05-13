@@ -91,8 +91,8 @@ Use o nosso canal no slack: http://bit.ly/32CuOMy para tirar dúvidas sobre o pr
 - [x] Create Section TypeOfProperties&Popular
 - [x] Create Section BePartOfIt
 - [x] Create Section BlogPosts
-- [ ] Config API Route to serve the flats and place jsons
-- [ ] Create Section PropertiesAnnounces
+- [x] Config API Route to serve the flats and place jsons
+- [x] Create Section PropertiesAnnounces
 - [ ] Create Section CatchPhrases
 - [ ] Create Section FindOpportunities
 - [ ] Create Section PlacesServices
@@ -102,4 +102,14 @@ Use o nosso canal no slack: http://bit.ly/32CuOMy para tirar dúvidas sobre o pr
 
 ## Developer notes
 
-- This Figma project faces significant DX challenges, lacking a UI Kit to showcase fonts, weights, colors, etc, crucial for the project. While it serves as a challenge draft, implementing a basic UI Kit would significantly enhance the initial impression. Prioritizing efforts in this area is essential to improve overall usability.
+- This Figma project faces significant DX challenges, lacking a UI Kit to showcase
+  fonts, weights, colors, etc, crucial for the project. While it serves as a challenge
+  draft, implementing a basic UI Kit would significantly enhance the initial impression.
+  Prioritizing efforts in this area is essential to improve overall usability.
+- Due the lack of time of my part and significant effort spent addressing responsiveness
+  and some lost time over testing with medias queries, the final delivery did not
+  entirely meet my expectations. However, the submitted work showcases a robust set
+  of skills in React and Next.js. Given the challenges posed by adapting to a Figma
+  design that was not optimized for efficiency, I am quite satisfied with what was
+  accomplished. This project demonstrates my ability to handle complex requests and
+  manage resources effectively under tight constraints.
