@@ -1,15 +1,19 @@
 'use client'
-import { FC, useState } from 'react'
+import { ComponentProps, FC, useState } from 'react'
 import Image from 'next/image'
 import LocationIcon from 'public/location.svg'
 import BedIcon from 'public/bed.svg'
 import { cn } from '~/utils/cn'
 import SearchIcon from 'public/search.svg'
 
-export const Banner: FC = () => {
+type Props = Omit<ComponentProps<'section'>, 'children'>
+export const Banner: FC<Props> = ({ className, ...rest }) => {
   const [inputValue, setInputValue] = useState('')
   return (
-    <section className="relative flex max-h-[640px] justify-center">
+    <section
+      className={cn(['relative flex max-h-[640px] justify-center', className])}
+      {...rest}
+    >
       <Image
         src="/woman-coffee-smile.png"
         alt="Banner"

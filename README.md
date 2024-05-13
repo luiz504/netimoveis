@@ -90,14 +90,15 @@ Use o nosso canal no slack: http://bit.ly/32CuOMy para tirar dúvidas sobre o pr
 - [x] Create footers, group the orange one and the gray one, in the Footer component but split them as the LowerFooter / UpperFooter to reduce code complexity due to responsiveness classes and the number of links
 - [x] Create Section TypeOfProperties&Popular
 - [x] Create Section BePartOfIt
-- [ ] Create Section BlogPosts
+- [x] Create Section BlogPosts
+- [ ] Config API Route to serve the flats and place jsons
+- [ ] Create Section PropertiesAnnounces
 - [ ] Create Section CatchPhrases
 - [ ] Create Section FindOpportunities
 - [ ] Create Section PlacesServices
 - [ ] Create Section WantSellOrRent
 - [ ] Create Section FindPropertiesBy
 - [ ] Create Section FindBuyAnnounceProperties
-- [ ] Create Section PropertiesAnnounces
 
 ## Developer notes
 
